@@ -107,15 +107,28 @@
 #     time.sleep(5)
 # else:
 #     print("Alarm")
-
+# ##============
+# import time
+# import random
+#
+# end_time = time.time() + 20
+#
+# while time.time() < end_time:
+#     print(random.randint(0, 10))
+#     time.sleep(5)
+# else:
+#     print("Alarm")
+#=============
 # def function_1(name_1="Hello"):
 #     return  name_1
 #
 # print(function_1("Privet"))
 
-def generator(rang):
-    for num in range(rang):
-        yield num
+# def generator(rang):
+#     for num in range(rang):
+#         yield num
 
 
-generator(10)
+# generator(10)
+
+import antigravity
